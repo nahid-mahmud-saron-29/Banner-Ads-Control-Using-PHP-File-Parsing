@@ -19,3 +19,21 @@ public class MainActivity extends AppCompatActivity {
         SHOW_ADS = true;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+if (MainActivity.SHOW_ADS){
+    // বিজ্ঞাপন লোড করার কোড
+    adView.setVisibility(View.VISIBLE);
+} else {
+    adView.setVisibility(View.GONE);
+}
